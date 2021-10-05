@@ -20,6 +20,6 @@ The process to obtain LIME is as follows:
 
 
 **References**
-1. https://christophm.github.io/interpretable-ml-book/
+1. https://christophm.github.io/interpretable-ml-book/lime.html
 2.https://c3.ai/glossary/data-science/lime-local-interpretable-model-agnostic-explanations/
 3. https://www.youtube.com/watch?v=hUnRCxnydCc
