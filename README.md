@@ -16,7 +16,8 @@ The process to obtain LIME is as follows:
 4. Train a weighted, interpretable model like a logistic regression,decision tree on the dataset with the variations.
 5. Explain the prediction by interpreting the local model. It could by interpreting magnitude and sign of estimated coefficients of logistic regression of IF-THEN rules of decision tree
 
-
+## What to watch out for
+Defining a neighbourhood for a point around which perturbed data needs to be created, is a non-trivial task. The neighbourhood is created using the parameter of Kernel width in LIME library. Selecting different values of kernel width can often lead to very different explanations for the prediction.
 
 
 **References**
